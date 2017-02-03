@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-title {
+  padding-left: 12px;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  ustify-content: space-between;
+  align-items: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+@media only screen
+and (max-width : 570px) {
+
+  .App-header {
+    height: 40px;
+    padding: 0;
+  }
+
+  .App-title {
+    font-size: 16px;
+  }
+
+  .App-logo {
+    height:40px;
+  }
+
+  .app-content {
+    flex-direction: column;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+
+  .nav-panel {
+    display: none;
+  }
+
+  .search-panel {
+    width: 100%;
+  }
+
+  .basket-footer {
+    font-size: 16px;
+  }
+}

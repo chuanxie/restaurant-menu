@@ -1,0 +1,30 @@
+.search-panel {
+  display: block;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-right: 1px solid #e8ebeb;
+}
+
+.search-panel__input {
+  height: 34px;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  font-size: 14px;
+  color: #c83c3c;
+}
+
+.search-panel__input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #ff9b9b;
+}
+.search-panel__input::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+.search-panel__input:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+.search-panel__input:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}

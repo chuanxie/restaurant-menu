@@ -1,0 +1,51 @@
+.app-content {
+  display: flex;
+}
+
+.nav-panel {
+  color: #575b5b;
+  text-align: left;
+  border: 1px solid #e8ebeb;
+}
+
+.menu-panel {
+  flex: 1;
+  margin-bottom: 50px;
+}
+
+.basket-footer {
+  cursor: pointer;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.basket-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket-footer:hover {
+  background-color: #282828;
+}
+
+.basket-footer-text {
+  display: block;
+  padding: 24px;
+}
+
+.basket-detail {
+ display: flex;
+  justify-content: space-between;
+  padding: 12px 24px 0 24px;
+  font-size: 14px;
+}
